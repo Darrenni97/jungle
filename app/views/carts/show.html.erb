@@ -4,9 +4,9 @@
     <h1>My Cart</h1>
   </header>
 
-  <% if enhanced_cart.size === 0 %>
+  <% if enhanced_cart.size == 0 %>
   <div class="alert alert-info" role="alert">
-  <strong>Heads up!</strong> Cart is empty!
+  <strong>Cart is empty!</strong> 
   </div>
   <%= link_to 'Home', :root %>
     <% else %>
